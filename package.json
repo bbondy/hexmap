@@ -1,0 +1,25 @@
+{
+  "name": "hexmap",
+  "version": "0.0.1",
+  "description": "Hexagon based knowledge map",
+  "main": "index.js",
+  "dependencies": {
+    "backbone": "~1.1.1",
+    "envify": "~0.2.0",
+    "react": "~0.8.0",
+    "react-tools": "~0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbondy/hexmap"
+  },
+  "author": "Brian R. Bondy <netzen@gmail.com> (http://brianbondy.com/)",
+  "bugs": {
+    "url": "https://github.com/bbondy/hexmap/issues"
+  },
+  "license": "GPL-2"
+}
