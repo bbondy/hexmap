@@ -7,7 +7,12 @@
     "backbone": "~1.1.1",
     "envify": "~0.2.0",
     "react": "~0.8.0",
-    "react-tools": "~0.8.0"
+    "react-tools": "~0.8.0",
+    "async": "~0.2.10",
+    "promise": "~4.0.0",
+    "express": "~3.4.8",
+    "jade": "~1.1.5",
+    "stylus": "~0.42.2"
   },
   "devDependencies": {},
   "scripts": {
