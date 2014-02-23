@@ -11,6 +11,7 @@ define(['react'], function(React) {
   var x = 0, y = 0;
   var count = 0;
   var offset = false;
+
   var HexMapUnicode = React.createClass({
     render: function() {
       console.log('rendering hexmap');
@@ -26,7 +27,7 @@ define(['react'], function(React) {
 
           console.log('r: ' + r + ', c: ' + c);
           hexNodes.push(
-            <div style={hexStyle}>&#x2B22;</div>
+            <a href='#'><div style={hexStyle}>&#x2B22;</div></a>
           );
 
         }
@@ -104,5 +105,5 @@ define(['react'], function(React) {
     document.getElementById('hexmap')
   );
 
-  return HexMap;
+  return HexMapUnicode;
 });
